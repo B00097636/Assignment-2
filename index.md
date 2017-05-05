@@ -1,37 +1,111 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-You can use the [editor on GitHub](https://github.com/B00097636/Assignment-2/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+<title>Home Page</title>
+<style>
+	@import ="css/style.css"	
+</style>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<style type="text/css">
+.carousel{
+    background: #2f4357;
+    margin-top: 20px;
+}
+.carousel .item img{
+    margin: 0 auto;
+}
+.bs-example{
+	margin: 20px;
+}
+</style>
+</head>
+<body>
+<div class="bs-example">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>   
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="img/profile/profile.jpg" alt="Profile Image">
+            </div>
+            <div class="item">
+                <img src="img/profile/dcfe.jpg" alt="Image of Killian">
+            </div>
+            <div class="item">
+                <img src="img/profile/town.jpg" alt="Photo of Killian">
+            </div>
+		</div>
+        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="carousel-control right" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+</div>                               		
+    <div class="container">
+    <div>
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="photo.html">Photography</a>
+                    </li>
+                    <li>
+                        <a href="design.html">Design</a>
+                    </li>
+                    <li>
+                        <a href="media.html">Media</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div><hr>
 
-### Markdown
+			<h3>Welcome to the portfolio page of Killian Kelly.</h3><br>
+			<p>This webpage details information on Killian Kelly<br>
+			and the work he has done on the Creative Digital Media Course<br>
+			in the Institute of Technology, Blanchardstown.<br></p>
+		</div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+        <hr>
 
-```markdown
-Syntax highlighted code block
+<footer>
+	<p>Copyright &copy; Killian Kelly 2017</p>
+</footer>
 
-# Header 1
-## Header 2
-### Header 3
+    
+    <!-- /.container -->
 
-- Bulleted
-- List
+    <!-- jQuery -->
+    <script src="file:///C|/Users/Vada/Documents/Bootstrap/js/jquery.js"></script>
 
-1. Numbered
-2. List
+    <!-- Bootstrap Core JavaScript -->
+    <script src="file:///C|/Users/Vada/Documents/Bootstrap/js/bootstrap.min.js"></script>
 
-**Bold** and _Italic_ and `Code` text
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
 
-[Link](url) and ![Image](src)
-```
+</body>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/B00097636/Assignment-2/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</html>
